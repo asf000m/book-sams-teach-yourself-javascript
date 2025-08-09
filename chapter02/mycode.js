@@ -28,3 +28,12 @@ var itemsToBeBoxed = 100;
 var itemsInLastBox = itemsToBeBoxed % itemsPerBox;
 
 alert(itemsInLastBox);
+
+var firstName = "Asafe";
+var surName = "Maia";
+var fullName = firstName + " " + surName;
+alert(fullName);
+
+var userName = "Sofia";
+var age = 22;
+alert(userName + age);
