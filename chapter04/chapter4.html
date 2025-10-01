@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 4</title>
+    <script>
+      /* function addTax(subtotal, taxRate) {
+        var total = subtotal * (1 + (taxRate / 100));
+        return total;
+      }
+
+      var invoiceValue = addTax(50, 10);
+
+      alert(invoiceValue);
+      alert(total); */
+
+      /* var a = 10;
+      var b = 10;
+      function showVars() {
+        var a = 20;
+        b = 20;
+        return `Local variable a = ${a}\nGlobal variable b = ${b}`;
+      }
+      
+      var message = showVars();
+      alert(message + "\nGlobal variable a = " + a); */
+
+      function myFunction(x) {
+        var y = x;
+        if (x > 50) {
+          var y = 10;
+          alert(`Inner y = ${y}`);
+        }
+        alert(`Outer y = ${y}`);
+      }
+    </script>
+  </head>
+  <body>
+    
+  </body>
+</html>
