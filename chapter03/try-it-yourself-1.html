@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Try it yourself 1</title>
+    <script>
+      function buttonReport(buttonId, buttonName, buttonValue) {
+        let userMessage1 = "Button id: " + buttonId + "\n";
+        let userMessage2 = "Button name: " + buttonName + "\n";
+        let userMessage3 = "Button value: " + buttonValue;
+        alert(userMessage1 + userMessage2 + userMessage3);
+      }
+
+    </script>
+  </head>
+  <body>
+    <input type="button" id="id1" name="left hand button" value="left" onclick="buttonReport(this.id, this.name, this.value)">
+    <input type="button" id="id2" name="center button" value="center" onclick="buttonReport(this.id, this.name, this.value)">
+    <input type="button" id="id3" name="right hand button" value="right" onclick="buttonReport(this.id, this.name, this.value)">
+  </body>
+</html>

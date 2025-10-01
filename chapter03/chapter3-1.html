@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 3</title>
+    <style>
+      input {
+        margin: 50px;
+        padding: 10px;
+        font-size: 30px;
+        color: darkblue;
+        background-color: orange;
+        border: 2px solid darkblue;
+        border-radius: 10px;
+
+        &:hover {
+          filter: brightness(1.1);
+        }
+        &:active {
+          transform: scale(0.9);
+        }
+      }
+    </style>
+    <script>
+      function sayHello() {
+        alert("Hello");
+      }
+      function doThis() {
+        alert("Doing This");
+      }
+      function doThat() {
+        alert("Doing That");
+      }
+      /* ------------------------------------------------------------ */
+      function cube(x) {
+        return (x * x * x);
+      }
+      function times(a, b) {
+        alert(a * b);
+      }
+    </script>
+  </head>
+  <body>
+    <input type="button" value="Say 'Hello'" onclick="sayHello()">
+  </body>
+</html>
