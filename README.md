@@ -8,4 +8,4 @@
 <h3>Part I: Your First Steps with JavaScript</h3>
 <h4>Lesson 1. Introducing JavaScript - <em>Completed 2025-09-07</em></h4>
 <h4>Lesson 2. Writing Simple Scripts - <em>Completed 2025-09-08</em></h4>
-<h4>Lesson 3. Introducing Functions - <em></em></h4>
+<h4>Lesson 3. Introducing Functions - <em>Completed 2025-09-30</em></h4>
