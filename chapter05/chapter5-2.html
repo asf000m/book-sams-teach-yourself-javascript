@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 5</title>
+    <style>
+      td {
+        border: 1px solid gray;
+        padding: 3px 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <script>
+      document.write("<table>");
+      document.write("<tr><td>appName</td><td>" + navigator.appName + "</td></tr>");
+      document.write("<tr><td>appCodeName</td><td>" + navigator.appCodeName + "</td></tr>");
+      document.write("<tr><td>appVersion</td><td>" + navigator.appVersion + "</td></tr>");
+      document.write("<tr><td>language</td><td>" + navigator.language + "</td></tr>");
+      document.write("<tr><td>cookieEnabled</td><td>" + navigator.cookieEnabled + "</td></tr>");
+      document.write("<tr><td>cpuClass</td><td>" + navigator.cpuClass + "</td></tr>");
+      document.write("<tr><td>onLine</td><td>" + navigator.onLine + "</td></tr>");
+      document.write("<tr><td>platform</td><td>" + navigator.platform + "</td></tr>");
+      document.write("<tr><td>No of Plugins</td><td>" + navigator.plugins.length + "</td></tr>");
+      document.write("</table>");
+      // ------------------------------------------------------------
+      let myDate = new Date();
+      document.write(`<p>${myDate}</p>`);
+      let year = myDate.getFullYear();
+      let month = myDate.getMonth();
+      let date = myDate.getDate();
+      let day = myDate.getDay();
+      let hours = myDate.getHours();
+      let minutes = myDate.getMinutes();
+      let seconds = myDate.getSeconds();
+      document.write(`<p>Year: ${year}<br>Month: ${month}<br>Date: ${date}<br>Day: ${day}<br>Hours: ${hours}<br>Minutes: ${minutes}<br>Seconds: ${seconds}`);
+      
+        let d1 = new Date("October 22, 1995 10:57:22");
+      let d2 = new Date(95, 9, 22);
+      let d3 = new Date(95, 9, 22, 10, 57, 0);
+      document.write(`<p>d1: ${d1}<br>d2: ${d2}<br>d3: ${d3}</p>`);
+      
+      let myDate2 = new Date();
+      document.write("<p>Object created on day number " + myDate2.getDay() + "<br>");
+      myDate2.setDate(15);
+      document.write("After amending date to 15th, the day number is " + myDate2.getDay() + "</p>");
+
+      let myDate3 = new Date();
+      document.write("<p>Created: " + myDate3.toDateString() + " " + myDate3.toTimeString() + "<br>");
+      myDate3.setDate(myDate3.getDate() + 33);
+      document.write("After adding 33 days: " + myDate3.toDateString() + " " + myDate3.toTimeString() + "</p>");
+    </script>
+  </body>
+</html>

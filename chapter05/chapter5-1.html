@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 5</title>
+  </head>
+  <body>
+    <div id="div1">
+      ... Content of DIV element ...
+    </div>
+    <div id="div2">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste explicabo vitae similique adipisci veritatis repellat est! Impedit aliquam nisi facere at, quo voluptatibus. Debitis perferendis distinctio ipsum nemo libero nostrum.</p>
+    </div>
+    <input type="button" value="Go to Google" onclick="location.replace('https://www.google.com/');">
+    <script>
+      alert("This is my message");
+      let answer = confirm("Are you happy to continue?");
+      console.log(answer);
+      let fullName = prompt("What is your full name?");
+      console.log(fullName);
+      let shortName = prompt("What is your full name?", "Asafe Maia");
+      console.log(shortName);
+      // ----------------------------------------------------------------------
+      let myDiv = document.getElementById("div1");
+      console.log(myDiv);
+      let myDivContents = document.getElementById("div2").innerHTML;
+      console.log(myDivContents);
+      document.getElementById("div2").innerHTML = "<pre>Hello, world! I'm doing stuff.</pre>"
+      // ----------------------------------------------------------------------
+      alert("You've visited " + history.length + " web pages in the browser session");
+      console.log(location.href);
+      console.log(location.protocol);
+      console.log(location.host);
+      console.log(location.hostname);
+      console.log(location.port);
+      console.log(location.pathname);
+      console.log(location.search);
+      console.log(location.hash);
+    </script>
+  </body>
+</html>

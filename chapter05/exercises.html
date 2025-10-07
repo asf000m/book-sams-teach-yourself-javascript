@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Current Date and Time</title>
+    <style>
+      body {
+        text-align: center;
+      }
+      p {
+        font: 14px normal arial, verdana, helvetica;
+      }
+      div {
+        width: fit-content;
+        margin: 1rem auto;
+        padding: 1rem;
+        border: 1px solid lightgray;
+      }
+      .date,
+      .time {
+        font-size: large;
+        font-weight: bold;
+      }
+      .date {
+        color: darkblue;
+      }
+      .time {
+        color: darkred;
+      }
+    </style>
+    <script>
+      function telltime() {
+        var out = "";
+        var now = new Date();
+        out += '<p>'
+        out += `<span class="date">${now.getMonth()+1}/${now.getDay()}/${now.getFullYear()}</span>`;
+        out += ` <span class="time">${now.getHours()}:${now.getMinutes()}:${now.getSeconds()}</span>`
+        out += '</p>'
+        document.getElementById("div1").innerHTML = out;
+      }
+    </script>
+</head>
+<body>
+  <p>The current date and time are:</p>
+  <div id="div1"></div>
+  <input type="button" onclick="location.reload()" value="Refresh" />
+  <hr>
+  <div>
+    <h2>Volume of a Chimney</h2>
+    <label for="radius">Radius</label>
+    <input id="radius" type="number" name="radius">
+    <label for="height">Height</label>
+    <input id="height" type="number" name="height">
+    <input type="button" name="calculate" onclick="volumeChimney()" value="Calculate">
+    <p>Result: <span id="result"></span></p>
+  </div>
+  <script>
+    telltime();
+  </script>
+  <script>
+    function volumeChimney() {
+      let radius = document.getElementById("radius").value;
+      let height = document.getElementById("height").value;
+      let volume = Math.PI * Math.pow(radius, 2) * height;
+      document.getElementById("result").innerHTML = `${volume}`;
+    }
+  </script>
+</body>
+</html>

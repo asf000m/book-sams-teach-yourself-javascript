@@ -10,6 +10,6 @@
 <h4>Lesson 2. Writing Simple Scripts - <em>Completed 2025-09-08</em></h4>
 <h4>Lesson 3. Introducing Functions - <em>Completed 2025-09-30</em></h4>
 <h4>Lesson 4. More Fun with Functions - <em>Completed 2025-10-01</em></h4>
-<h4>Lesson 5. DOM Objects and Built-in Objects</h4>
+<h4>Lesson 5. DOM Objects and Built-in Objects - <em>Completed 2025-10-07</em></h4>
 
 <h3>Part II: Cooking With Code</h3>
