@@ -4,12 +4,17 @@
 <p>2018. Published by Sams</p>
 <p>ISBN-13: 978-0-672-33809-0</p>
 <p>ISBN-10: 0-672-33809-2</p>
-
+<hr>
 <h3>Part I: Your First Steps with JavaScript</h3>
 <h4>Lesson 1. Introducing JavaScript - <em>Completed 2025-09-07</em></h4>
 <h4>Lesson 2. Writing Simple Scripts - <em>Completed 2025-09-08</em></h4>
 <h4>Lesson 3. Introducing Functions - <em>Completed 2025-09-30</em></h4>
 <h4>Lesson 4. More Fun with Functions - <em>Completed 2025-10-01</em></h4>
 <h4>Lesson 5. DOM Objects and Built-in Objects - <em>Completed 2025-10-07</em></h4>
-
+<br>
 <h3>Part II: Cooking With Code</h3>
+<h4>Lesson 6. Dealing With Numbers</h4>
+<h4>Lesson 7. Working With Character Strings</h4>
+<h4>Lesson 8. Storing Data In Arrays - <em>Completed 2025-10-15</em></h4>
+<h4>Lesson 9. Handling Events in JavaScript</h4>
+<h4>Lesson 10. Controlling Program Flow</h4>

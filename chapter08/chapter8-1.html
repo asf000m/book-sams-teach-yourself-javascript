@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Chapter 8</title>
+  </head>
+  <body>
+    <script>
+      let myArray1 = new Array();
+      let myArray2 = [];
+
+      let myArray3 = ['monday', 'tuesday', 'wednesday'];
+
+      myArray2[0] = 'thursday';
+      myArray2[1] = 'friday';
+
+      let week = myArray3.concat(myArray2);
+
+      let myArray4 = [2, 3, 4, 5, 6];
+      function cube(x) {
+        console.log(x * x * x);
+      }
+      myArray4.forEach(cube);
+
+      function square(x) {
+        return x * x;
+      }
+      let newArray = myArray4.map(square);
+
+      for (let y of myArray4) {
+        cube(y);
+      }
+    </script>
+  </body>
+</html>
