@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chapter 10 - Controlling Program Flow</title>
+</head>
+<body>
+  <script>
+    let temperature = 90;
+    if (temperature < 64) {
+      message = 'Turn on the heating!';
+      heatingStatus = 'on';
+      fanStatus = 'on';
+    } else if (temperature > 72) {
+      message = 'Turn on  the fan!';
+      heatingStatus = 'off';
+      fanStatus = 'on';
+    } else {
+      message = 'Temperature is OK';
+      heatingStatus = 'off';
+      fanStatus = 'off';
+    }
+    console.log(temperature, message, heatingStatus, fanStatus);
+
+    let color = 'green';
+    switch (color) {
+      case 'red':
+        message = 'Stop!';
+        break;
+      case 'yellow':
+        message = 'Pass with caution';
+        break;
+      case 'green':
+        message = 'Come on through';
+        break;
+      default:
+        message = 'Traffic light out of service. Pass only with great care';
+    }
+    console.log(message);
+  </script>
+</body>
+</html>

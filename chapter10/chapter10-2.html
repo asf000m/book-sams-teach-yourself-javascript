@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Chapter 10 - Logical Operators">
+  <title>Chapter 10 - Logical Operators</title>
+</head>
+<body>
+  <script>
+    let temperature = Math.floor(Math.random() * 150);
+    let message;
+
+    if (temperature >= 64 && temperature <= 72) {
+      message = 'The temperature is OK';
+    } else {
+      message = 'The temperature is out of range!';
+    }
+    console.log(message, `Temperature: ${temperature}°`);
+
+    if (temperature < 64 || temperature > 72) {
+      message = 'The temperature is out of range!';
+    } else {
+      message = 'The temperature is OK';
+    }
+    console.log(message, `Temperature: ${temperature}°`);
+
+    let count = 10;
+    let sum = 0;
+    while (count > 0) {
+      sum += count;
+      count--;
+    }
+    console.log(sum);
+
+    sum = 0;
+    for (let count = 10; count > 0; count--) {
+      sum += count;
+    }
+    console.log(sum);
+
+    count = 10;
+    sum = 0;
+    while (count > 0) {
+      sum += count;
+      if (sum > 42) {
+        break;
+      }
+      count--;
+    }
+    console.log(sum);
+  </script>
+</body>
+</html>

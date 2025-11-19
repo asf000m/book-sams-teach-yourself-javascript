@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Chapter 10 - Looping Through Objects with for ... in">
+  <title>Chapter 10 - Looping Through Objects with for ... in</title>
+</head>
+<body>
+  <div id="id1">I'm about to disappear!</div>
+
+  <script>
+    function hide(elementId) {
+      let element = document.getElementById(elementId);
+      element.style.display = 'none';
+    }
+    
+    let timer1;
+    window.onload = function() {
+      timer1 = setTimeout("hide('id1')", 1000);
+    }
+    clearTimeout(timer1);
+  </script>
+  <script>
+    let days = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+    let message = '';
+    for (i in days) {
+      message += `Day ${i} is ${days[i]}\n`;
+    }
+    console.log(message);
+  </script>
+</body>
+</html>
