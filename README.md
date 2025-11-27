@@ -13,7 +13,7 @@
 <h4>Lesson 5. DOM Objects and Built-in Objects - <em>Completed 2025-10-07</em></h4>
 <br>
 <h3>Part II: Cooking With Code</h3>
-<h4>Lesson 6. Dealing With Numbers</h4>
+<h4>Lesson 6. Dealing With Numbers - <em>Completed 2025-11-26</em></h4>
 <h4>Lesson 7. Working With Character Strings</h4>
 <h4>Lesson 8. Storing Data In Arrays - <em>Completed 2025-10-15</em></h4>
 <h4>Lesson 9. Handling Events in JavaScript</h4>
