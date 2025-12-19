@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chapter 7</title>
+</head>
+<body>
+  <script>
+    function detectSpam(input) {
+      input = input.toLowerCase();
+      return input.indexOf('fake');
+    }
+
+    let myString = prompt('Enter a string');
+    alert(detectSpam(myString));
+  </script>
+</body>
+</html>

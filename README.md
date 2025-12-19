@@ -14,7 +14,7 @@
 <br>
 <h3>Part II: Cooking With Code</h3>
 <h4>Lesson 6. Dealing With Numbers - <em>Completed 2025-11-26</em></h4>
-<h4>Lesson 7. Working With Character Strings</h4>
+<h4>Lesson 7. Working With Character Strings - <em>Completed 2025-12-18</em></h4>
 <h4>Lesson 8. Storing Data In Arrays - <em>Completed 2025-10-15</em></h4>
 <h4>Lesson 9. Handling Events in JavaScript</h4>
 <h4>Lesson 10. Controlling Program Flow - <em>Completed 2025-11-18</em></h4>
